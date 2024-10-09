@@ -65,3 +65,9 @@ const aplicarDescuentoTelevisor = function (precio, descuento) {
 };
 
 aplicarDescuentoTelevisor(1200, 20);
+
+//Arrow function
+let brilloActivado=1
+const brilloAuto = () => {
+  brilloActivado = 1 ? console.log("El brillo automatico esta activado") : console.log("El brillo automatico esta desactivado") 
+}
